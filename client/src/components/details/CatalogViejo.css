@@ -1,0 +1,11 @@
+.allProduct {
+     display: inline-flex;
+    /* flex-wrap: wrap;  */
+    width: 250px;
+    /* height: 100; */
+}
+
+/* .eachProduct {
+width: 40px;
+height: 80px;
+} */

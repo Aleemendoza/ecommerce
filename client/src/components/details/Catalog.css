@@ -1,0 +1,14 @@
+.container {
+  display: inline-grid;
+}
+
+.allProduct {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 90px;
+  text-align: center;
+}
+
+.selectcategories {
+  display: flex;
+}

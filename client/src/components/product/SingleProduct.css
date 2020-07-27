@@ -1,0 +1,34 @@
+.all {
+    display: flexbox;
+    font-family: sans-serif, Arial, "Helvetica Neue", Helvetica;
+    margin: 20px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 20px;
+  color: #323434;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+/* .name_price_description {} */
+
+/* .name {} */
+
+/* .price {} */
+
+/* .description {} */

@@ -1,0 +1,9 @@
+.flex-large {
+  padding-top: 30px;
+}
+
+.back-to-admin {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}

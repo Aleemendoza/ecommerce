@@ -1,0 +1,17 @@
+.overlay {
+  background-color: #000000;
+  border-color: black;
+  padding: 15px;
+}
+
+/* The content */
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+  border-color: black;
+  border-radius: 45px;
+}

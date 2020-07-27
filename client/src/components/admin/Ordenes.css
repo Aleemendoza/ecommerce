@@ -1,0 +1,25 @@
+.acciones {
+  display: inline-flex;
+}
+
+.detail {
+  padding: 5px;
+}
+
+.delete {
+  padding: 5px;
+}
+
+.change {
+  padding: 5px;
+}
+
+.back-to-admin {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.filter-status {
+  padding: 15px;
+}

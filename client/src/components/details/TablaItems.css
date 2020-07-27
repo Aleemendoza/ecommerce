@@ -1,0 +1,12 @@
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.td {
+  display: grid;
+}
+
+.table {
+  display: inline-table;
+}

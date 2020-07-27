@@ -1,0 +1,42 @@
+.navbar {
+  height: 60px;
+  background-color: #FF1493;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 100%;
+}
+
+.list-item {
+  margin: 0;
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.list-item a {
+  color: white;
+  padding: 16px 10px;
+  border-bottom: 4px solid transparent;
+}
+
+.buscar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.NavLink {
+  color: green;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+}

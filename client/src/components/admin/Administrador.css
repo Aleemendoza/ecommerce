@@ -1,0 +1,16 @@
+.div {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 300px;
+}
+
+.prgrph {
+  color: white;
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
