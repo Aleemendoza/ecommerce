@@ -1,4 +1,3 @@
-process.env.FOO;
 require('dotenv').config();
 
 
