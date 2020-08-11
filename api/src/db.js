@@ -1,19 +1,5 @@
-
-//       &&&&&&                         &&&&                                                 
-//     .&&&&&&%&&                     #&&&&&%                                                
-//      @c&&&&&&&&&&&%. *      ,,(@&&%%%&&&&,                                                
-//       (o&&&# *, ,&&&&&&/.&&&&&%/*#&&&&&(                                                  
-//         %l&&&&&&&&&&&&,  ,&&&&&&&&&&&(                                                    
-//          .o&&&&&&&@.        #*/%@&&%%*    *                                               
-//     /%,                                  %                                                
-//      (##.        #*                    *#                                                 
-//       ,%#                             %/                                                  
-//        ,%.        .(.       .        %                                                    
-//          ,%#.         .(#,      *###,                                                     
-//            *#####//(/**  ***#####(.                                                       
-//               *%##############*                                                           
-//                      ,***,,,                                                     
-
+process.env.FOO;
+require('dotenv').config();
 
 
 const Sequelize = require('sequelize');
@@ -22,6 +8,7 @@ const Sequelize = require('sequelize');
 const {
   DB_USER, DB_PASSWORD, DB_HOST,
 } = process.env;
+
 
 function db() {
 
