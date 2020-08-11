@@ -5,6 +5,9 @@
 </p>
 
 
+- git clone https://github.com/Aleemendoza/ecommerce.git
+
+
 ## Levantando base de datos 
 
 - en el archivo .env llenar con las credenciales de su Base de datos
@@ -14,7 +17,6 @@
 
 ## levantando el Proyecto
 
-- git clone https://github.com/Aleemendoza/ecommerce.git
 
 - ingresar a carpeta api, hacer npm install, luego npm start
 
