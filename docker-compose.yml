@@ -2,7 +2,7 @@ version: "3"
 services:
   
   frontend:
-    container_name: SocketIO_Front_end
+    container_name: Ecommerce_Front_end
     stdin_open: true
     build:
       context: ./client
@@ -13,7 +13,7 @@ services:
       - ./client:/usr/src/app
   
   backend:
-    container_name: SocketIO_Back_end
+    container_name: Ecommerce_Back_end
     build:
       context: ./api
       dockerfile: Dockerfile
